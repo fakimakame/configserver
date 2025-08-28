@@ -3,7 +3,7 @@ emp:
       url: "http://localhost:8080/"
 cloudConfig:
    mysql:
-     url: "jdbc:mysql://localhost:3309/inventorys?allowPublicKeyRetrieval=true&useSSL=false"
+     url: "jdbc:mysql://localhost:3309/inventory?allowPublicKeyRetrieval=true&useSSL=false"
      username: "root"
      password: "root"
      driverClassName: "com.mysql.cj.jdbc.Driver"
