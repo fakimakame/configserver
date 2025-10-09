@@ -4,6 +4,7 @@ emp:
 cloudConfig:
    mysql:
      url: "jdbc:mysql://localhost:3309/inventory?allowPublicKeyRetrieval=true&useSSL=false"
+     sas_url: "jdbc:mysql://localhost:3309/SAS?allowPublicKeyRetrieval=true&useSSL=false"
      username: "root"
      password: "root"
      driverClassName: "com.mysql.cj.jdbc.Driver"
